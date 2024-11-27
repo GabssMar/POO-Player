@@ -55,3 +55,7 @@ $player2->subirNivel();
 echo "<br>";
 
 echo "Seu inventário possui {$player2->getInventario()->capacidadeLivre()} espaços livres <br>";
+
+echo "<br>";
+
+$player1->soltarItem('Cajado Cintilante');
